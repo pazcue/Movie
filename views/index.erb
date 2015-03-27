@@ -1,12 +1,6 @@
 <h1>Login</h1>
 
-<form action="/sessions/create" method="post">
-	<input type="text" placeholder="Movie Search" name="movie"></br>
-
-<% @i.each do |movie| %>
-	<%= movie.title %>
-<% end %>
-     
-
-</br>
+<form action="/movies/search" method="post">
+	<input type="text" placeholder="Movie Search" name="search_term"></br></br>
+	<input type="submit" name="submit" value="Play!"></br></br>
 </form>
