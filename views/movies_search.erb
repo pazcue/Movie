@@ -1,0 +1,9 @@
+<style>
+.movie{
+	width:100px;
+}
+</style>
+<% @movies.each do |movie| %>
+	<%= movie[:title] %> <br>
+	<img src="<%= movie[:poster] %>" class="movie"><br>
+<% end %>
