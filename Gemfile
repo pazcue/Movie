@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 
-	gem 'imdb', '~> 0.8'
-	
+gem 'sinatra'
+gem 'pry'
+gem 'imdb', '~> 0.8'
+
